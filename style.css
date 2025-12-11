@@ -22,7 +22,7 @@ section {
 }
 /* this is for the default size */
 #canvas {
-  min-height: 100%;
+  min-width: 100%;
   display: flex;
   position: absolute;
   justify-content: center;
