@@ -13,7 +13,7 @@
   background: linear-gradient(135deg, #e9e7e7 0%, #e8e8e8 100%);
   font-family: "Apple Garamond", serif;
 } */
- body{
+body{
     overflow: hidden;
     background: linear-gradient(135deg, #e9e7e7 0%, #e8e8e8 100%);
     animation: appear 1s ease-in-out 0s 1 normal none;
@@ -98,8 +98,16 @@ a {
   background: #757575;
   border-radius: 47px;
 }
+/* ========== HEADER SECTION ========== */
+.header-rectangle {
+  display: none;
+}
+
+.header-divider {
+  display: none;
+}
 /* ========== MAIN CONTAINER ========== */
-.contact-us-container {
+.about-us-container {
   height: 637px;
   width: 1248px;
   background: rgb(241, 241, 237);
@@ -109,44 +117,6 @@ a {
   border-radius: 30px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   text-align: center;
-}
-
-/* ========== HEADER SECTION ========== */
-.header-rectangle {
-  display: none;
-}
-
-.header-divider {
-  display: none;
-}
-
-/* ========== GLASS EFFECT PANEL ========== */
-.glass-panel {
-  display: none;
-}
-
-.glass-shadow {
-  display: none;
-}
-
-.glass-mask {
-  display: none;
-}
-
-.glass-shape {
-  display: none;
-}
-
-.glass-blur {
-  display: none;
-}
-
-.glass-fill {
-  display: none;
-}
-
-.glass-effect {
-  display: none;
 }
 
 /* ========== CONTENT SECTION ========== */
@@ -161,8 +131,7 @@ a {
   margin-bottom: 24px;
   word-wrap: break-word;
 }
-
-.contact-description {
+.about-description {
   position: relative;
   left: auto;
   top: auto;
@@ -184,7 +153,7 @@ a {
         }
       }
 @media (max-width: 393px){
-  .contact-us-container {
+  .about-us-container {
     width: 95%;
     padding: 120px 16px;
 }
@@ -192,7 +161,7 @@ a {
   font-size: 60px;
           padding-bottom: 28px;
 }
-.contact-description{
+.about-description{
   font-size: 23px;
 }
 }

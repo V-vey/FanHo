@@ -18,16 +18,12 @@ function hidePopup() {
   this.classList.remove("show");
   setTimeout(() => this.remove(), duration);
 }
-
-mq.addEventListener("change", handleResize);
-handleResize(mq);
-
 function handleResize(e) {
   if (e.matches) {
     images.forEach((img) => {
       // this is for the mobile
       img.addEventListener("click", () => {
-        const imageClone = img.cloneNode(false);
+        const imageClone = img.cloneNode(false); //duplicate the image for the enlarge one
         imageClone.addEventListener("click", (e) => e.stopPropagation());
 
         const popup = document.createElement("div");
@@ -57,6 +53,10 @@ function handleResize(e) {
     });
   }
 }
+mq.addEventListener("change", handleResize);
+handleResize(mq);
+
+
 // selenting the content, show-content and the hamburger
 const contents = document.querySelector(".content");
 const show = document.querySelector(".show-content");

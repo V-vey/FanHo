@@ -36,45 +36,6 @@
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
-
-/* ========== HEADER SECTION ========== */
-.header-rectangle {
-  display: none;
-}
-
-.header-divider {
-  display: none;
-}
-
-/* ========== GLASS EFFECT PANEL ========== */
-.glass-panel {
-  display: none;
-}
-
-.glass-shadow {
-  display: none;
-}
-
-.glass-mask {
-  display: none;
-}
-
-.glass-shape {
-  display: none;
-}
-
-.glass-blur {
-  display: none;
-}
-
-.glass-fill {
-  display: none;
-}
-
-.glass-effect {
-  display: none;
-}
-
 /* ========== CONTENT SECTION ========== */
 .page-title {
   position: relative;
@@ -128,6 +89,46 @@
 .contact-facebook {
   margin-bottom: 0;
 }
+
+/* ========== HEADER SECTION ========== */
+.header-rectangle {
+  display: none;
+}
+
+.header-divider {
+  display: none;
+}
+
+/* ========== GLASS EFFECT PANEL ========== */
+.glass-panel {
+  display: none;
+}
+
+.glass-shadow {
+  display: none;
+}
+
+.glass-mask {
+  display: none;
+}
+
+.glass-shape {
+  display: none;
+}
+
+.glass-blur {
+  display: none;
+}
+
+.glass-fill {
+  display: none;
+}
+
+.glass-effect {
+  display: none;
+}
+
+
 .nav {
     display: flex;
     justify-content: left;
