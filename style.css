@@ -22,7 +22,6 @@ section {
 }
 /* this is for the default size */
 #canvas {
-  min-width: 100%;
   display: flex;
   position: absolute;
   justify-content: center;
@@ -413,7 +412,11 @@ footer {
   opacity: 1;
   filter: brightness(1.1);
 }
-
+.img-size-gallery{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 @media (max-width: 480px) {
   /* this is to show the about him top */
