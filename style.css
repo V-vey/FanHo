@@ -22,6 +22,7 @@ section {
 }
 /* this is for the default size */
 #canvas {
+  min-height: 100%;
   display: flex;
   position: absolute;
   justify-content: center;
@@ -414,7 +415,7 @@ footer {
 }
 
 
-@media (max-width: 393px) {
+@media (max-width: 480px) {
   /* this is to show the about him top */
   .mobile-about-him {
     display: block;
