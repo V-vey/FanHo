@@ -152,11 +152,11 @@ section {
   margin-bottom: 35px;
 }
 .home h1 {
-  font-size: 180px;
+  font-size: 11.25rem;
   font-weight: 400;
 }
 .home h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-top: -40px;
   font-family: "Chivo Mono", monospace;
   font-weight: 400;
@@ -169,7 +169,7 @@ section {
   margin-top: 275px;
 }
 .quote-div p {
-  font-size: 48px;
+  font-size: 3rem;
   font-family: "Chivo Mono", monospace;
   text-align: justify;
 }
@@ -177,7 +177,7 @@ section {
 .quote-fanho {
   display: flex;
   justify-content: end;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 150;
   text-align: left;
   margin-right: 100px;
@@ -206,12 +206,12 @@ section {
 }
 /* this is the text of About Him */
 .about-him {
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 150;
 }
 /* this is the about him */
 .about-him-text {
-  font-size: 32px;
+  font-size: 2rem;
   text-align: justify;
   margin-right: 100px;
 }
@@ -295,7 +295,7 @@ section {
   margin-bottom: 30px;
 }
 .gallery-text {
-  font-size: 96px;
+  font-size: 6rem;
   text-align: center;
   margin: 40px;
 }
@@ -420,6 +420,7 @@ footer {
 
 @media (max-width: 480px) {
   /* this is to show the about him top */
+
   .mobile-about-him {
     display: block;
     font-size: 122px;
