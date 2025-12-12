@@ -601,7 +601,7 @@ footer {
     margin-right: -74px;
   }
   .gallery-text {
-    font-size: 46px;
+    font-size: 41px;
     margin: 9px;
   }
   .gallery-container img {
@@ -617,28 +617,30 @@ footer {
     max-width: 100%;
     margin-top: 128px;
     margin-bottom: 178px;
+            position: absolute;
+                top: 1518px;
   }
   .upper-left-camera {
     width: 570.84px;
     filter: blur(4px);
     transform: rotate(7deg);
-    position: absolute;
-    top: 1237px;
-    left: 155px;
+            position: absolute;
+        top: -504px;
+        left: 187px;
   }
   .upper-right-camera {
     width: 205.95px;
     transform: rotate(79deg);
     filter: blur(2px);
     position: absolute;
-    top: 1376px;
-    right: 338px;
+    top: -393px;
+        right: 349px;
   }
   .lower-left-camera {
     width: 300.73px;
     transform: rotate(-194deg);
     position: absolute;
-    top: 1550px;
+            top: -223px;
     left: 302px;
   }
   .lower-right-camera {
@@ -646,7 +648,7 @@ footer {
     transform: rotate(151deg);
     filter: blur(2px);
     position: absolute;
-    top: 1560px;
+            top: -226px;
     right: 312px;
   }
   .camera {
@@ -742,5 +744,8 @@ footer {
 }
 .hamburger.open .bar:nth-child(3) {
   transform: translate(0, -9px) rotate(135deg);
+}
+.mobile-gallery-position{
+  margin-top: 129px;
 }
 }
