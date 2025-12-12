@@ -464,7 +464,7 @@ footer {
 @media (max-width: 480px) {
   /* this is to show the about him top */
   #canvas {
-    position: unset;
+    max-width: 480px
   }
   .home h1 {
     font-size: 7.25rem;
