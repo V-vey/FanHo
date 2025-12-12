@@ -466,37 +466,42 @@ footer {
   #canvas {
     position: unset;
   }
+  .home h1 {
+    font-size: 7.25rem;
+    font-weight: 400;
+  }
+  .content a {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    padding-top: 13px;
+    padding-right: 2px;
+  }
   .mobile-about-him {
     display: block;
-    font-size: 122px;
+    font-size: 52px;
     text-align: center;
     font-weight: 150;
   }
   /* to hide the other about him */
   .about-him {
-    display: none;
+    display: block;
+    visibility: hidden;
   }
   /* resizing and positioning of fan ho image */
-  .fanho-image {
-    display: inline-block;
-    margin-left: 516px;
-    margin-right: 470px;
-    margin-bottom: 47px;
-  }
+
   .about-him-text {
-    font-size: 53px;
+    font-size: 18px;
     text-align: justify;
-    margin-right: 100px;
     align-self: center;
-    width: 1245px;
-    margin-left: 90px;
-    /* padding-top: 145px; */
+    width: 393px;
+    margin: 33px;
+    margin-top: -48px;
   }
   .home {
     padding-top: 92px;
-    margin-left: 50px;
+    margin-left: 18px;
     margin-bottom: 35px;
-    margin-top: 270px;
+    margin-top: 65px;
   }
   .header-wrapper {
     height: 167px;
@@ -516,16 +521,16 @@ footer {
     border-radius: 47px;
   }
   .header-underline {
-  margin-top: 80px;
-}
+    margin-top: 150px;
+  }
   .hamburger {
-           padding-top: 113px;
+    padding-top: 113px;
   }
   .bar {
-        width: 31px;
-        height: 4px;
-        margin: 5px;
-    }
+    width: 31px;
+    height: 4px;
+    margin: 5px;
+  }
   .hamburger.open .bar:nth-child(1) {
     transform: translate(0, 20px) rotate(45deg);
   }
@@ -537,20 +542,23 @@ footer {
   }
   .content {
     width: 95%;
-    height: 126px;
-    border-radius: 5%;
+    height: 52px;
+    border-radius: 0%;
     flex-direction: row;
-    padding-top: 18px;
-    margin-top: 12px;
+    padding-top: 2px;
+    margin-top: 16px;
+    padding-left: 15px;
+    gap: 0;
   }
   .content a {
     font-family: Inter, sans-serif;
-    font-size: 38px;
-    padding-top: 19px;
-    padding-right: 50px;
+    font-size: 14px;
+    padding-top: 13px;
+    padding-right: 5px;
+    padding-left: 4px;
   }
   .quote-div p {
-    font-size: 63px;
+    font-size: 23px;
     font-family: "Chivo Mono", monospace;
     text-align: justify;
     margin-top: -106px;
@@ -558,7 +566,8 @@ footer {
 
   .nav-item-mobile {
     opacity: 1;
-    padding-top: 18px;
+    padding-top: 11px;
+    padding-right: 10px;
   }
   .popup img {
     width: 80%;
@@ -567,5 +576,77 @@ footer {
     margin-top: 139px;
     margin-bottom: 30px;
     font-size: 33px;
+  }
+  .home h2 {
+    font-size: 26px;
+    margin-top: -30px;
+    margin-bottom: -23px;
+  }
+  .quote-div {
+    margin: 22px;
+    margin-top: 137px;
+  }
+  .quote-fanho {
+    font-size: 1px;
+    margin-top: 1px;
+  }
+  .quote-fanho {
+    font-size: 30px;
+    margin-top: -24px;
+    margin-right: 26px;
+    margin-bottom: 55px;
+  }
+  .fanho-image img {
+    width: 337px;
+    margin-left: -50px;
+    margin-top: -39px;
+  }
+  .fanho-image {
+    display: block;
+    width: 235px;
+    height: 234px;
+  }
+  .camera img {
+    width: 403.86px;
+    object-fit: cover;
+    margin: 0px;
+    margin-top: -411px;
+  }
+  .gallery-text {
+    font-size: 46px;
+    margin: 9px;
+  }
+  .gallery-container img {
+    margin-bottom: 2px;
+  }
+  .gallery-container {
+    column-gap: 6px;
+    margin: 11px;
+  }
+  footer {
+    font-size: 11px;
+  }
+  #canva-camera {
+    align-self: center;
+    max-width: 100%;
+  }
+  .upper-left-camera {
+    width: 1442.84px;
+    filter: blur(8.8px);
+    transform: rotate(7deg);
+  }
+  .upper-right-camera {
+    width: 461.95px;
+    transform: rotate(79deg);
+    filter: blur(8px);
+  }
+  .lower-left-camera {
+    width: 929.73px;
+    transform:rotate(-194deg);
+  }
+  .lower-right-camera {
+    width: 1000px;
+    transform: rotate(151deg);
+    filter: blur(8px);
   }
 }
