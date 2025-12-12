@@ -1,6 +1,6 @@
 // Select all zoomable images
 const images = document.querySelectorAll("[data-zoom]");
-const mq = window.matchMedia("(max-width: 394px)");
+const mq = window.matchMedia("(max-width: 480px)");
 
 // Read CSS duration and convert to ms
 const duration =
