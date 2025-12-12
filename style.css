@@ -464,10 +464,10 @@ footer {
 @media (max-width: 480px) {
   /* this is to show the about him top */
   #canvas {
-    max-width: 480px
+    max-width: 480px;
   }
   .home h1 {
-    font-size: 7.25rem;
+    font-size: 78px;
     font-weight: 400;
   }
   .content a {
@@ -531,32 +531,24 @@ footer {
     height: 4px;
     margin: 5px;
   }
-  .hamburger.open .bar:nth-child(1) {
-    transform: translate(0, 20px) rotate(45deg);
-  }
-  .hamburger.open .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger.open .bar:nth-child(3) {
-    transform: translate(0, -20px) rotate(135deg);
-  }
+
   .content {
     width: 95%;
     height: 52px;
-    border-radius: 0%;
+            border-radius: 13%;
     flex-direction: row;
     padding-top: 2px;
-    margin-top: 16px;
+            margin-top: 6px;
     padding-left: 15px;
     gap: 0;
   }
   .content a {
-    font-family: Inter, sans-serif;
-    font-size: 14px;
-    padding-top: 13px;
-    padding-right: 5px;
-    padding-left: 4px;
-  }
+        font-family: Inter, sans-serif;
+        font-size: 12px;
+        padding-top: 16px;
+        padding-right: 13px;
+        padding-left: 4px;
+    }
   .quote-div p {
     font-size: 23px;
     font-family: "Chivo Mono", monospace;
@@ -572,14 +564,9 @@ footer {
   .popup img {
     width: 80%;
   }
-  footer {
-    margin-top: 139px;
-    margin-bottom: 30px;
-    font-size: 33px;
-  }
   .home h2 {
-    font-size: 26px;
-    margin-top: -30px;
+    font-size: 15px;
+    margin-top: -18px;
     margin-bottom: -23px;
   }
   .quote-div {
@@ -607,10 +594,11 @@ footer {
     height: 234px;
   }
   .camera img {
-    width: 403.86px;
+    width: 322.86px;
     object-fit: cover;
     margin: 0px;
-    margin-top: -411px;
+    margin-left: -74px;
+    margin-right: -74px;
   }
   .gallery-text {
     font-size: 46px;
@@ -621,32 +609,138 @@ footer {
   }
   .gallery-container {
     column-gap: 6px;
-    margin: 11px;
+    margin: 5px;
   }
-  footer {
-    font-size: 11px;
-  }
+
   #canva-camera {
     align-self: center;
     max-width: 100%;
+    margin-top: 128px;
+    margin-bottom: 178px;
   }
   .upper-left-camera {
-    width: 1442.84px;
-    filter: blur(8.8px);
+    width: 570.84px;
+    filter: blur(4px);
     transform: rotate(7deg);
+    position: absolute;
+    top: 1237px;
+    left: 155px;
   }
   .upper-right-camera {
-    width: 461.95px;
+    width: 205.95px;
     transform: rotate(79deg);
-    filter: blur(8px);
+    filter: blur(2px);
+    position: absolute;
+    top: 1376px;
+    right: 338px;
   }
   .lower-left-camera {
-    width: 929.73px;
-    transform:rotate(-194deg);
+    width: 300.73px;
+    transform: rotate(-194deg);
+    position: absolute;
+    top: 1550px;
+    left: 302px;
   }
   .lower-right-camera {
-    width: 1000px;
+    width: 300px;
     transform: rotate(151deg);
-    filter: blur(8px);
+    filter: blur(2px);
+    position: absolute;
+    top: 1560px;
+    right: 312px;
   }
+  .camera {
+    margin: 0px;
+    margin-top: -368px;
+    padding: 43px;
+  }
+  .camera p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 150;
+  }
+  .camera-bottom-text h3 {
+    font-size: 28px;
+  }
+  .camera-bottom-text {
+    text-align: center;
+    margin-top: -64px;
+  }
+  @keyframes slide-tl-normal {
+    0% {
+      transform: translate(-170px, 1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0px, 0px) rotate(-194deg);
+      opacity: 1;
+    }
+  }
+  /* Bottom right */
+  .slide-tl-normal {
+    animation: slide-tl-normal 1s ease-in-out 0s 1 normal none;
+  }
+  @keyframes slide-tr-normal {
+    0% {
+      transform: translate(-170px, 1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0px, 0px) rotate(151deg);
+      opacity: 1;
+    }
+  }
+  /* Bottom Left */
+  .slide-tr-normal {
+    animation: slide-tr-normal 1s ease-in-out 0s 1 normal none;
+  }
+  @keyframes slide-bl-normal {
+    0% {
+      transform: translate(-170px, 1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0px, 0px) rotate(7deg);
+      opacity: 1;
+    }
+  }
+  /* Upper Right */
+  .slide-bl-normal {
+    animation: slide-bl-normal 1s ease-in-out 0s 1 normal none;
+  }
+  @keyframes slide-br-normal {
+    0% {
+      transform: translate(-170px, 1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0px, 0px) rotate(79deg);
+      opacity: 1;
+    }
+  }
+  /* Upper Left */
+  .slide-br-normal {
+    animation: slide-br-normal 1s ease-in-out 0s 1 normal none;
+  }
+  .box {
+    position: absolute;
+    top: 1146px;
+  }
+  .camera-bottom-text h3 {
+    font-size: 26px;
+}
+    footer {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+.hamburger.open .bar:nth-child(1) {
+  transform: translate(0, 9px) rotate(45deg);
+}
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open .bar:nth-child(3) {
+  transform: translate(0, -9px) rotate(135deg);
+}
 }
