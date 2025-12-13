@@ -209,7 +209,7 @@ a {
   animation: appear;
   animation-timeline: view();
 }
-@media (max-width: 393px){
+@media (max-width: 480px){
   .contact-us-container {
     width: 95%;
     padding: 80px 16px;

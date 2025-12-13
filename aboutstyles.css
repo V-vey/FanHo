@@ -152,7 +152,7 @@ a {
           opacity: 1;
         }
       }
-@media (max-width: 393px){
+@media (max-width: 480px){
   .about-us-container {
     width: 95%;
     padding: 120px 16px;

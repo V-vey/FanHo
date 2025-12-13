@@ -7,12 +7,10 @@ const duration =
   parseFloat(
     getComputedStyle(document.documentElement).getPropertyValue("--duration")
   ) * 1000;
-
 function showPopup(el) {
   // ensure CSS transitions kick in
   setTimeout(() => el.classList.add("show"), 0);
 }
-
 function hidePopup() {
   // 'this' is the popup element when used as event handler
   this.classList.remove("show");
