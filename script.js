@@ -90,8 +90,6 @@ const observer = new IntersectionObserver((entries) => {
 // to observe it
 observer.observe(target);
 
-const width = window.innerWidth;
 
-window.addEventListener("load", () => {
-  document.body.style.zoom < "1";
-});
+
+

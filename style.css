@@ -493,7 +493,7 @@ footer {
   /* resizing and positioning of fan ho image */
 
   .about-him-text {
-    font-size: 18px;
+    font-size: 15px;
     text-align: justify;
     align-self: center;
     width: 393px;
@@ -586,16 +586,17 @@ footer {
     margin-right: 26px;
     margin-bottom: 55px;
   }
-  .fanho-image img {
-    width: 337px;
-    margin-left: -50px;
-    margin-top: -39px;
-  }
-  .fanho-image {
-    display: block;
-    width: 235px;
-    height: 234px;
-  }
+      .fanho-image img {
+        width: 254px;
+        margin-left: -39px;
+        margin-top: -34px;
+    }
+      .fanho-image {
+        display: block;
+        width: 174px;
+        height: 172px;
+            margin-left: 150px;
+    }
   .camera img {
     width: 322.86px;
     object-fit: cover;
@@ -662,11 +663,11 @@ footer {
   }
   .camera p {
     text-align: center;
-    font-size: 10px;
+    font-size: 7px;
     font-weight: 150;
   }
   .camera-bottom-text h3 {
-    font-size: 28px;
+    font-size: 17px;
   }
   .camera-bottom-text {
     text-align: center;
@@ -750,7 +751,7 @@ footer {
   transform: translate(0, -9px) rotate(135deg);
 }
 .mobile-gallery-position{
-  margin-top: 129px;
+  margin-top: -21px;
 }
 
 }
