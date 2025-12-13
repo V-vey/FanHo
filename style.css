@@ -481,7 +481,7 @@ footer {
   }
   .mobile-about-him {
     display: block;
-    font-size: 3.25rem;
+            font-size: 48px;
     text-align: center;
     font-weight: 150;
   }
@@ -623,13 +623,10 @@ footer {
   }
 
   .upper-left-camera {
-    width: 570.84px;
-    filter: blur(4px);
-    transform: translate(160px, -580px) rotate(7deg);
-    /* position: absolute;
-        top: -504px;
-        left: 187px; */
-  }
+        width: 525.84px;
+        filter: blur(4px);
+        transform: translate(150px, -580px) rotate(7deg);
+    }
   .upper-right-camera {
     width: 205.95px;
     transform: translate(-90px, -1030px) rotate(79deg);
@@ -638,13 +635,10 @@ footer {
     top: -393px;
         right: 349px; */
   }
-  .lower-left-camera {
-    width: 300.73px;
-    transform: translate(310px, -1000px) rotate(-194deg);
-    /* position: absolute;
-            top: -223px;
-    left: 302px; */
-  }
+      .lower-left-camera {
+        width: 321.73px;
+        transform: translate(260px, -1000px) rotate(-194deg);
+    }
   .lower-right-camera {
     width: 300px;
     transform: translate(-140px, -1270px) rotate(151deg);
@@ -676,7 +670,7 @@ footer {
       opacity: 0;
     }
     100% {
-      transform: translate(310px, -1000px) rotate(-194deg);
+      transform: translate(260px, -1000px) rotate(-194deg);
       opacity: 1;
     }
   }
@@ -731,7 +725,7 @@ footer {
     top: 1146px;
   }
   .camera-bottom-text h3 {
-    font-size: 26px;
+    font-size: 17px;
   }
   footer {
     margin-top: 47px;
@@ -765,9 +759,10 @@ footer {
     position: relative;
     width: 100%;
   }
-  .design{
-    width: auto;
-  }
+      .design {
+        width: auto;
+        padding-top: 60px;
+    }
   #gallery{
     z-index: 4;
   }
