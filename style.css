@@ -464,7 +464,9 @@ footer {
 @media (max-width: 480px) {
   /* this is to show the about him top */
   #canvas {
-    max-width: 480px;
+    position: unset;
+    display: flex;
+    justify-content: center;
   }
   .home h1 {
     font-size: 78px;
@@ -617,39 +619,40 @@ footer {
     max-width: 100%;
     margin-top: 128px;
     margin-bottom: 178px;
-            position: absolute;
+            /* position: absolute;
                 top: 1518px;
+                width: 480px; */
   }
   .upper-left-camera {
     width: 570.84px;
     filter: blur(4px);
-    transform: rotate(7deg);
-            position: absolute;
+    transform: translate(160px, -580px) rotate(7deg);
+            /* position: absolute;
         top: -504px;
-        left: 187px;
+        left: 187px; */
   }
   .upper-right-camera {
     width: 205.95px;
-    transform: rotate(79deg);
-    filter: blur(2px);
-    position: absolute;
+    transform: translate(-90px,-1030px) rotate(79deg);
+    filter:  blur(2px);
+    /* position: absolute;
     top: -393px;
-        right: 349px;
+        right: 349px; */
   }
   .lower-left-camera {
     width: 300.73px;
-    transform: rotate(-194deg);
-    position: absolute;
+    transform: translate(310px, -1000px) rotate(-194deg);
+    /* position: absolute;
             top: -223px;
-    left: 302px;
+    left: 302px; */
   }
   .lower-right-camera {
     width: 300px;
-    transform: rotate(151deg);
+    transform: translate(-140px, -1330px) rotate(151deg);
     filter: blur(2px);
-    position: absolute;
+    /* position: absolute;
             top: -226px;
-    right: 312px;
+    right: 312px; */
   }
   .camera {
     margin: 0px;
@@ -670,11 +673,11 @@ footer {
   }
   @keyframes slide-tl-normal {
     0% {
-      transform: translate(-170px, 1000px);
+      transform: translate(0px, 0px);
       opacity: 0;
     }
     100% {
-      transform: translate(0px, 0px) rotate(-194deg);
+      transform: translate(310px, -1000px) rotate(-194deg);
       opacity: 1;
     }
   }
@@ -684,11 +687,11 @@ footer {
   }
   @keyframes slide-tr-normal {
     0% {
-      transform: translate(-170px, 1000px);
+      transform: translate(0px, 0px);
       opacity: 0;
     }
     100% {
-      transform: translate(0px, 0px) rotate(151deg);
+      transform: translate(-140px, -1330px) rotate(151deg);
       opacity: 1;
     }
   }
@@ -698,11 +701,11 @@ footer {
   }
   @keyframes slide-bl-normal {
     0% {
-      transform: translate(-170px, 1000px);
+      transform: translate(0px, 0px);
       opacity: 0;
     }
     100% {
-      transform: translate(0px, 0px) rotate(7deg);
+      transform: translate(160px, -580px) rotate(7deg);
       opacity: 1;
     }
   }
@@ -712,11 +715,11 @@ footer {
   }
   @keyframes slide-br-normal {
     0% {
-      transform: translate(-170px, 1000px);
+      transform: translate(0px, 0px);
       opacity: 0;
     }
     100% {
-      transform: translate(0px, 0px) rotate(79deg);
+      transform: translate(-90px,-1030px) rotate(79deg);
       opacity: 1;
     }
   }
@@ -748,4 +751,5 @@ footer {
 .mobile-gallery-position{
   margin-top: 129px;
 }
+
 }
