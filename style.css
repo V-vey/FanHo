@@ -470,7 +470,7 @@ footer {
     justify-content: center;
   }
   .home h1 {
-    font-size: 78px;
+    font-size: 4.875rem;
     font-weight: 400;
   }
   .content a {
@@ -481,7 +481,7 @@ footer {
   }
   .mobile-about-him {
     display: block;
-    font-size: 52px;
+    font-size: 3.25rem;
     text-align: center;
     font-weight: 150;
   }
@@ -493,7 +493,7 @@ footer {
   /* resizing and positioning of fan ho image */
 
   .about-him-text {
-    font-size: 15px;
+    font-size: 0.938rem;
     text-align: justify;
     align-self: center;
     width: 88%;
@@ -535,40 +535,42 @@ footer {
     margin: 5px;
   }
 
-  .content {
-    width: 95%;
-    height: 52px;
-    border-radius: 13%;
-    flex-direction: row;
-    padding-top: 2px;
-    margin-top: 6px;
-    padding-left: 15px;
-    gap: 0;
-  }
-  .content a {
-    font-family: Inter, sans-serif;
-    font-size: 12px;
-    padding-top: 16px;
-    padding-right: 13px;
-    padding-left: 4px;
-  }
+      .content {
+        width: 81%;
+        height: 69px;
+        border-radius: 13%;
+        flex-direction: row;
+        padding-top: 0px;
+        margin-top: -60px;
+        padding-left: 15px;
+        gap: 0;
+        flex-wrap: wrap;
+        margin-left: 60px;
+    }
+      .content a {
+        font-family: Inter, sans-serif;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-right: 13px;
+        padding-left: 4px;
+    }
   .quote-div p {
-    font-size: 23px;
+    font-size: 1.375rem;
     font-family: "Chivo Mono", monospace;
     text-align: justify;
     margin-top: -106px;
   }
 
   .nav-item-mobile {
-    opacity: 1;
-    padding-top: 11px;
-    padding-right: 10px;
-  }
+        opacity: 1;
+        padding-top: 0px;
+        padding-right: 10px;
+    }
   .popup img {
     width: 80%;
   }
   .home h2 {
-    font-size: 15px;
+    font-size: 0.938rem;
     margin-top: -18px;
     margin-bottom: -23px;
   }
@@ -581,7 +583,7 @@ footer {
     margin-top: 1px;
   }
   .quote-fanho {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-top: -24px;
     margin-right: 26px;
     margin-bottom: 55px;
@@ -608,7 +610,7 @@ footer {
     margin-right: -74px;
   }
   .gallery-text {
-    font-size: 41px;
+    font-size: 2.563rem;
     margin: 9px;
   }
   .gallery-container img {
@@ -657,11 +659,11 @@ footer {
   }
   .camera p {
     text-align: center;
-    font-size: 7px;
+    font-size: 0.438rem;
     font-weight: 150;
   }
   .camera-bottom-text h3 {
-    font-size: 17px;
+    font-size: 1.625rem;
   }
   .camera-bottom-text {
     text-align: center;
