@@ -590,12 +590,15 @@ footer {
     width: 254px;
     margin-left: -39px;
     margin-top: -34px;
+    float: none;
   }
   .fanho-image {
     display: block;
     width: 174px;
     height: 172px;
-    margin-left: 150px;
+    margin-left: auto;
+        margin-right: auto;
+        float: none;
   }
   .camera img {
     width: 322.86px;
