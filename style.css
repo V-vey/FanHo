@@ -464,7 +464,8 @@ footer {
 @media (max-width: 480px) {
   /* this is to show the about him top */
   #canvas {
-    position: unset;
+    position: absolute;
+    width: 480px;
     display: flex;
     justify-content: center;
   }
