@@ -650,7 +650,7 @@ footer {
   }
   .lower-right-camera {
     width: 300px;
-    transform: translate(-140px, -1330px) rotate(151deg);
+    transform: translate(-140px, -1270px) rotate(151deg);
     filter: blur(2px);
     /* position: absolute;
             top: -226px;
@@ -707,7 +707,7 @@ footer {
       opacity: 0;
     }
     100% {
-      transform: translate(160px, -580px) rotate(7deg);
+      transform: translate(-140px, -1270px) rotate(7deg);
       opacity: 1;
     }
   }
