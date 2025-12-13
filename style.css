@@ -469,10 +469,10 @@ footer {
     display: flex;
     justify-content: center;
   }
-  .home h1 {
-    font-size: 4.875rem;
-    font-weight: 400;
-  }
+      .home h1 {
+        font-size: 3.875rem;
+        font-weight: 400;
+    }
   .content a {
     font-family: Inter, sans-serif;
     font-size: 14px;
@@ -569,11 +569,11 @@ footer {
   .popup img {
     width: 80%;
   }
-  .home h2 {
-    font-size: 0.938rem;
-    margin-top: -18px;
-    margin-bottom: -23px;
-  }
+      .home h2 {
+        font-size: 0.838rem;
+        margin-top: -15px;
+        margin-bottom: -23px;
+    }
   .quote-div {
     margin: 22px;
     margin-top: 137px;
@@ -771,66 +771,4 @@ footer {
     z-index: 4;
   }
   
-}
-@media (max-width: 382px) {
-      .home h1 {
-        font-size: 68px;
-        font-weight: 400;
-    }
-        .quote-div p {
-        font-size: 19px;
-        }
-            .quote-fanho {
-        font-size: 24px;
-            }
-            .upper-left-camera {
-        width: 570.84px;
-        filter: blur(4px);
-        transform: translate(100px, -580px) rotate(7deg);
-    }
-        .lower-left-camera {
-        width: 300.73px;
-        transform: translate(240px, -1070px) rotate(-194deg);
-    }
-    .camera p {
-        text-align: center;
-        font-size: 6px;
-        font-weight: 150;
-        /* width: 187px; */
-    }
-        .camera-bottom-text h3 {
-        font-size: 19px;
-    }
-        .gallery-text {
-        font-size: 33px;
-        margin: 9px;
-    }
-    @keyframes slide-tl-normal {
-  0% {
-    transform: translateY(0) translateX(0);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(240px, -1070px) rotate(-194deg);
-    opacity: 1;
-  }
-}
-/* Bottom right */
-.slide-tl-normal {
-  animation: slide-tl-normal 1s ease-in-out 0s 1 normal none;
-}
-@keyframes slide-bl-normal {
-    0% {
-      transform: translate(0px, 0px);
-      opacity: 0;
-    }
-    100% {
-      transform: translate(100px, -580px) rotate(7deg);
-      opacity: 1;
-    }
-  }
-  /* Upper Right */
-  .slide-bl-normal {
-    animation: slide-bl-normal 1s ease-in-out 0s 1 normal none;
-  }
 }
